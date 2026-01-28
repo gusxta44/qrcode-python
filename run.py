@@ -4,6 +4,7 @@ from pyshorteners import Shortener
 from PyQt5.QtCore import pyqtSlot
 import qrcode
 from PyQt5.QtGui import QPixmap
+from os import path
 
 def CREATE_SHORT_URL(url):
     link = Shortener()
